@@ -1,0 +1,90 @@
+
+
+.works {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+position: relative;
+.slider{
+  height: 350px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease-out;
+  .container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .items {
+      width: 700px;
+      height: 100%;
+      background-color: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      .left {
+        flex: 4;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .leftContainer {
+          width: 90%;
+          height: 70%;
+          display: flex;
+          flex-direction: column;
+       
+       
+
+          .ImgContainer {
+          
+            border-radius: 50%;
+            background-color: rgb(245, 179, 155);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+ 
+            img{
+              width: 15px;
+            }
+        }
+      
+      }
+        }
+           h1{
+          font-size: 30px;
+          color:black;
+        
+        
+        }
+        p{
+          font-size:15px;
+          color:black;
+     
+    }
+ 
+    .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 400px;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
+}
